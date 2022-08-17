@@ -42,7 +42,7 @@ const AddHero = ({ movies, setMovies }) => {
   return (
     <div>
       <Button sx={{ backgroundColor: "black" }} className="add_button" variant="contained" onClick={handleOpen}>
-        Add a new Hero
+        Add a movie
       </Button>
       <Modal
         open={open}
